@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+
+}
+
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+/* Navigation */
+.navbar{
+text-transform: uppercase;
+font-weight: 700;
+font-size: .9rem;
+letter-spacing: .1rem;
+background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand img{
+  height: 3rem;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff9933;
+}
+
+/*-- Landing Page--*/
+.home-inner {
+  background-image: url(../img/computer.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+   padding-bottom:  1rem;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom:  1.6rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+/* Button Section*/
+.narrow{
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1{
+  font-size:  2.4rem;
+}
+.btn-secondary{
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size:  1.2rem;
+  padding: .6rem 1.2rem;
+  margin: 1rem;
+  color: white;
+  background-color: #1ebba3;
+  border-color: #1ebba3;
+}
+.btn-secondary:hover {
+  border-color: #189582;
+  border-color: #189582;
+}
+
+/*Our Services*/
+.services {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: black;
+   background: #cecece;
+   text-align: center;
+}
+
+.our_card {
+   background: white;
+   padding: 50px 40px 40px;
+   transition: 0.3s;
+   margin-bottom: 30px;
+
+}
+
+.our_card:hover {
+   background: #f6cb96;
+   color: white;
+   box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+}
+
+.our_card:hover .icon {
+   color: white;
+}
+
+.our_card:hover .button-services {
+   border: 2px solid white;
+   color: white;
+}
+
+.icon {
+   transition: 0.3s;
+   font-size: 60px;
+   color: black;
+}
+
+.button-services {
+   margin-top: 20px;
+   transition: 0.3s;
+   color: black;
+   text-transform: uppercase;
+   border: 2px solid black;
+   background: transparent;
+   padding: 10px 12px 10px;
+   font-family: 'Open Sans Semibold';
+}
+
+.button-services:hover {
+   cursor: pointer;
+}
+
+
+/*About Section*/
+.about{
+	padding-top:40px;
+	padding-bottom:20px;
+    color:black;
+	background: white;
+	text-align:center;
+}
+.about_title{
+	font-size: 30px;
+	font-weight: bold;
+}
+.about__text{
+	margin-bottom:110px;
+}
+.about__h3{
+	margin-top: 30px;
+	margin-bottom:20px;
+	font-size: 20px;
+	font-family: 'Open Sans Smibold';
+}
+.logs{
+  height: 6rem;
+}
+
+
+/* Contact Section*/
+
+footer{
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+footer img{
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a{
+  color: white;
+}
+footer svg.svg-inline--fa{
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover{
+  color: #ff9933!important;
+}
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+
+
+.aboutt span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/* Start Footer*/
+
+.footer {
+  background-color: #35424a;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+  }
+
+.footer .aboutt {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .aboutt span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+.footer .icons a {
+	color: #ffffff;
+}
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #ff9933;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: #0099ff;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: #ff9933;
+}
+
+.footer .name {
+  color: #ff9933;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._14 {
+    font-size: 1.2em;
+	color: white;
+}
+
+
+/*End Footer*/
+@media (max-width:767px) {
+
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom:  5rem;
+  }
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom:  1.2rem;
+  }
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+  .narrow h1{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+
+	#boxnews h3 {font-size: 12px; }
+    .footer{font-size:15px;}
+	.footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+             display: inline;
+             vertical-align: top;
+        
+}
